@@ -1,0 +1,12 @@
+POST http://localhost:5001/api/customer
+Content-Type: application/json
+{
+    "gender": 1,
+    "firstName": "Florian",
+    "lastName": "Friedl",
+    "birthday": "19-09-2001T00:00:00.000Z",
+    "street": "Reisnerstraße",
+    "houseNumber": "37",
+    "zipCode": "4331",
+    "town": "Naarn" 
+}
